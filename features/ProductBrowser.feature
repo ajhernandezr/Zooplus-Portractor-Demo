@@ -1,9 +1,9 @@
 Feature: Buy dog food 
 	As a customer of Zooplus
   I would like to find a product with the browser 
-  So that I can select food brand and buy it	
+  So that I can see a list of searched item	
 
-  Scenario Outline: Dog Food
+  Scenario Outline: Search browser
 	Given  I am in the Zooplus home 
 	When  I input "<Product>" 
 	And perform the search 
